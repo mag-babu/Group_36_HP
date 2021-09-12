@@ -7,9 +7,9 @@ from utils import init_model, train_model
 from typing import List
 
 
-# PREDICTR_ENDPOINT = os.getenv("PREDICTR_ENDPOINT")
+PREDICTR_ENDPOINT = os.getenv("PREDICTR_ENDPOINT")
 
-PREDICTR_ENDPOINT = "http://predictr:9999"
+# PREDICTR_ENDPOINT = "http://predictr:9999"
 
 # defining the main app
 
